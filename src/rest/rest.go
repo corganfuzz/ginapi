@@ -43,4 +43,5 @@ func RunAPI(address string) error {
 	r.POST("/users/charge", func(c *gin.Context) {
 		//TODO: charge credit card
 	})
+
 }
